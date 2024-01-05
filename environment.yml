@@ -1,0 +1,14 @@
+name: transformers
+channels:
+  - huggingface
+  - pytorch
+  - nvidia
+dependencies:
+  - python=3.10
+  - pip
+  - pytorch=2.1.2
+  - torchvision=0.16
+  - torchaudio=2.1.2
+  - pytorch-cuda=12.1
+  - transformers=4.22
+  - pandas=2.1
